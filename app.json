@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "projeto-teste",
+    "name": "App",
     "slug": "projeto-teste",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#222222"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stg.appteste",
+      "buildNumber": "1.0.0"
+
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#222222"
+      },
+      "package": "com.stg.appteste",
+      "versionCode": 1
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
